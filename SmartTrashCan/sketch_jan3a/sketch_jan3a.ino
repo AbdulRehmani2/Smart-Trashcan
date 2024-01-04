@@ -3,11 +3,11 @@
 #include "ThingSpeak.h"
 #include <HardwareSerial.h>
 
-#define SSID "2022-CS-57/ssid"
-#define PASSWORD "2022-CS-57/password"
+#define SSID "YOUR WIFI NAME"
+#define PASSWORD "YOUR WIFI PASSWORD"
 
-#define channelID 2393832
-#define APIKey "90V0U2LQOE9MJ3WX"
+#define channelID "CHANNEL ID ON THINGSPEAK"
+#define APIKey "YOUR API KEY"
 
 const char* mqttServer = "broker.mqtt.cool";
 const char *ntpServerName = "pool.ntp.org";
